@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Shaban Satti</title>
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= HEADER ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="index.html" class="nav-link scrollto"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="projects.html" class="nav-link scrollto active"><i class="bx bx-code"></i> <span>Projects</span></a></li>
+        <li><a href="publications.html" class="nav-link scrollto"><i class="bx bx-book-content"></i>
+            <span>Publications</span></a></li>
+        <li><a href="experience.html" class="nav-link scrollto"><i class="bx bx-briefcase"></i> <span>Work
+              Experience</span></a>
+        </li>
+        <li><a href="education.html" class="nav-link scrollto"><i class="bx bx-book"></i> <span>Education</span></a>
+        </li>
+        <li><a href="achievements.html" class="nav-link scrollto"><i class="bx bx-trophy"></i>
+            <span>Achievements</span></a>
+        </li>
+        <li><a href="teaching.html" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Teaching</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <section class="resume">
+      <div class="container" data-aos="fade-up">
+      <div class="section-title">
+        <h2>Projects</h2>
+      </div>
+
+      <div class="row mb-4">
+        <div class="col-sm-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h4 class="card-title">HyPowerFlow - Speeding Up Powerflow Simulations for Modern Grids</h4>
+              <span class="badge text-bg-success rounded-pill">Python</span>
+              <span class="badge text-bg-success rounded-pill">Pytorch geometric</span>
+              <h5 class="card-text">HyPowerFlow algorithm accelerates power flow convergence across multiple grid scenarios by leveraging GPU parallelism,
+              data compression, structured hyper-sparsity, and refined initial estimates. Efficient data formatting optimizes GPU
+              utilization and eliminates redundant matrix re-creation. Structured hyper-sparsity exploits redundancy in the
+              storage-intensive matrices to minimize memory overhead. Improved initial estimate of node voltage angles reduces
+              iterations and accelerates convergence.</h5>
+              <a href="https://github.com/amar-asu/HyPowerFlow.git" class="github" target="_blank"
+                rel="noopener noreferrer"><i class="bx bxl-github"></i></a>
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Julia Library for EMT Power System Simulations</h4>
+              <span class="badge text-bg-success rounded-pill">Julia</span>
+              <p class="card-text">We have developed a Julia based library for EMT simulations of power system. It has been tested on WECC 240 bus system.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="row mb-4">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Identification of IBR Control Modes</h4>
+              <span class="badge text-bg-success rounded-pill">Python</span>
+              <h5 class="card-text">The proposed approach utilizes voltages, and
+              power data at micro-PMU reporting rate at the node under observation for IBR mode identification and parameter
+              estimation. A real-time implementation framework for the three-pronged approach having an adaptive window selection
+              algorithm is developed to track the control mode along with parameters in real-time. The identified windows from an
+              adaptive window selection algorithm are utilized by the three-pronged approach for i) identification of control modes,
+              ii) parameter estimation of IBRs, and iii) aggregated load parameter estimation. The paper also performs robustness
+              analysis by considering different noise levels in the PMU measurements. Random forest, K-nearest neighbors, and Decision
+              tree algorithms are utilized for each prong of the three-pronged approach with RF outperforming the other algorithms.
+              The proposed approach developed in this work is tested in detail on the IEEE 13-node distribution test system.</h5>
+                      <a href="https://ieeexplore.ieee.org/abstract/document/10720454" class="google" target="_blank"
+                        rel="noopener noreferrer"><i class="bx bxl-google"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Security Constrained Economic Dispatch</h4>
+              <span class="badge text-bg-success rounded-pill">AMPL</span>
+              <span class="badge text-bg-success rounded-pill">GUROBI</span>
+              <h5 class="card-text">This project implements a Security-Constrained Unit Commitment (SCUC) model for the IEEE 73-bus system using AMPL. The
+              model optimizes generator scheduling while ensuring system reliability under transmission constraints, generator
+              contingencies, renewable variability, and transmission contingencies. It employs a Benders decomposition approach to
+              iteratively solve subproblems and enforce security constraints.</h5>
+              <a href="https://github.com/shabansatti/Security-Constrained-Economic-Dispatch.git" class="github" target="_blank" rel="noopener noreferrer"><i
+                  class="bx bxl-github"></i></a>
+            </div>
+          </div>
+          </div>
+          </div>
+          </div>
+    </section>
+    
+    </div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
