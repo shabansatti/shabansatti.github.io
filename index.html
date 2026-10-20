@@ -1,89 +1,440 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Shaban Satti</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/icon.jpg" rel="icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shaban G. Satti</title>
+  <meta name="description" content="Shaban G. Satti: electrical engineer, data scientist and lecturer at UET Lahore. Power systems, machine learning, and the products Coursewise and MyCapstone.">
+  <meta name="theme-color" content="#07090f">
+  <meta property="og:title" content="Shaban G. Satti">
+  <meta property="og:description" content="Electrical engineer, data scientist and lecturer. Power grids, machine learning and products for educators.">
+  <meta property="og:image" content="assets/img/profile-img.jpg">
+  <link rel="icon" href="assets/img/icon.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site/site.css">
 </head>
-
 <body>
+  <a class="skip" href="#main">Skip to content</a>
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
-  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex flex-column justify-content-center">
-    
-    <nav id="navbar" class="navbar nav-menu">
-      <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="projects.html" class="nav-link scrollto"><i class="bx bx-code"></i> <span>Projects</span></a></li>
-        <li><a href="publications.html" class="nav-link scrollto"><i class="bx bx-book-content"></i>
-        <span>Publications</span></a></li>
-        <li><a href="experience.html" class="nav-link scrollto"><i class="bx bx-briefcase"></i> <span>Work Experience</span></a></li>
-        <li><a href="education.html" class="nav-link scrollto"><i class="bx bx-book"></i> <span>Education</span></a></li>
-        <li><a href="achievements.html" class="nav-link scrollto"><i class="bx bx-trophy"></i> <span>Achievements</span></a></li>
-        <li><a href="teaching.html" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Teaching</span></a></li>
+  <div class="progress" aria-hidden="true"><span></span></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
 
+  <!-- Intro curtain -->
+  <div class="intro" aria-hidden="true">
+    <div class="intro-mark"><span>S</span><span>G</span><span>S</span></div>
+  </div>
+
+  <header class="nav" id="top">
+    <a class="brand" href="#home" data-view-link="home" aria-label="Home">
+      <span class="brand-dot"></span>SGS
+    </a>
+    <nav aria-label="Primary">
+      <ul class="nav-links">
+        <li><a href="#home" data-view-link="home">Home</a></li>
+        <li><a href="#products" data-view-link="products">Products</a></li>
+        <li><a href="#research" data-view-link="research">Research</a></li>
+        <li><a href="#experience" data-view-link="experience">Experience</a></li>
+        <li><a href="#education" data-view-link="education">Education</a></li>
+        <li><a href="#awards" data-view-link="awards">Awards</a></li>
+        <li><a href="#publications" data-view-link="publications">Publications</a></li>
+        <li><a href="#teaching" data-view-link="teaching">Teaching</a></li>
+        <li><a href="#contact" data-view-link="contact">Contact</a></li>
       </ul>
-    </nav><!-- .nav-menu -->
+      <span class="nav-pill" aria-hidden="true"></span>
+    </nav>
+    <button class="menu-btn" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+  </header>
 
-  </header><!-- End Header -->
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <a href="#home" data-view-link="home">Home</a>
+    <a href="#products" data-view-link="products">Products</a>
+    <a href="#research" data-view-link="research">Research</a>
+    <a href="#experience" data-view-link="experience">Experience</a>
+    <a href="#education" data-view-link="education">Education</a>
+    <a href="#awards" data-view-link="awards">Awards</a>
+    <a href="#publications" data-view-link="publications">Publications</a>
+    <a href="#teaching" data-view-link="teaching">Teaching</a>
+    <a href="#contact" data-view-link="contact">Contact</a>
+  </div>
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center">
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Shaban G. Satti</h1>
-      <p>I'm <span class="typed" data-typed-items="Electrical Engineer, Data Scientist"></span></p>
-      <div class="social-links">
-        <a href="https://github.com/shabansatti" class="github"    target="_blank"
-  rel="noopener noreferrer"><i class="bx bxl-github"></i></a>
-        <a href="https://www.linkedin.com/in/ishabansatti/" class="linkedin"    target="_blank"
-  rel="noopener noreferrer"><i class="bx bxl-linkedin"></i></a>
-        <a href="https://scholar.google.com/citations?user=b_1fk_MAAAAJ&hl=en" class="google"    target="_blank"
-  rel="noopener noreferrer"><i class="bx bxl-google"></i></a>
+  <main id="main">
+    <!-- ================= HOME ================= -->
+    <section class="view view-home" id="home" aria-label="Home">
+    <div class="hero" id="hero">
+      <canvas class="grid-canvas" aria-hidden="true"></canvas>
+      <div class="hero-inner">
+        <p class="eyebrow reveal"><span class="live-dot"></span> AI Enthusiast</p>
+        <h1 class="hero-title" aria-label="Shaban G. Satti">
+          <span class="split" data-split>Shaban</span>
+          <span class="split accent" data-split>G. Satti</span>
+        </h1>
+        <p class="hero-role reveal">
+          I'm <span class="typed" data-words="an Electrical Engineer|a Data Scientist|a Power Systems Researcher|a Product Builder|an Educator">an Electrical Engineer</span><span class="caret" aria-hidden="true"></span>
+        </p>
+        <p class="hero-sub reveal">My aim is to use AI for</p>
+        <ul class="goals">
+          <li class="goal reveal"><span class="sdg sdg-7">SDG 7</span><span>clean energy, by making grid simulation fast enough to plan for more solar and wind.</span></li>
+          <li class="goal reveal"><span class="sdg sdg-13">SDG 13</span><span>climate action, by keeping renewable-heavy grids stable and efficient.</span></li>
+          <li class="goal reveal"><span class="sdg sdg-4">SDG 4</span><span>quality education, through tools like Coursewise and MyCapstone for every student and teacher.</span></li>
+        </ul>
+        <div class="hero-cta reveal">
+          <a class="btn btn-primary magnetic" href="#products" data-view-link="products"><span>See my products</span></a>
+          <a class="btn btn-ghost magnetic" href="#research" data-view-link="research"><span>Research work</span></a>
+        </div>
+        <div class="socials reveal">
+          <a href="https://github.com/shabansatti" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg viewBox="0 0 24 24"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/ishabansatti/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+          </a>
+          <a href="https://wa.me/923325275028" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35ZM12.05 21.5h-.01a9.4 9.4 0 0 1-4.79-1.31l-.34-.2-3.56.93.95-3.47-.22-.36a9.4 9.4 0 0 1-1.44-5.01c0-5.2 4.23-9.42 9.43-9.42 2.52 0 4.88.98 6.66 2.76a9.36 9.36 0 0 1 2.76 6.67c0 5.2-4.23 9.42-9.43 9.42Zm8.02-17.44A11.27 11.27 0 0 0 12.05.75C5.8.75.72 5.83.72 12.08c0 2 .52 3.95 1.52 5.67L.62 23.25l5.63-1.48a11.3 11.3 0 0 0 5.8 1.48h.01c6.24 0 11.33-5.08 11.33-11.33 0-3.03-1.18-5.87-3.32-8Z"/></svg>
+          </a>
+          <a href="mailto:ishabansatti@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm1 2.4V17h16V7.4l-8 5.6-8-5.6ZM5.6 7 12 11.5 18.4 7H5.6Z"/></svg>
+          </a>
+          <a href="https://scholar.google.com/citations?user=b_1fk_MAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
+            <svg viewBox="0 0 24 24"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14Zm0-24L0 9.5l4.84 3.94A8.98 8.98 0 0 1 12 10a8.98 8.98 0 0 1 7.16 3.44L24 9.5 12 0Z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-portrait reveal" data-tilt>
+        <div class="orbit orbit-1" aria-hidden="true"><span></span></div>
+        <div class="orbit orbit-2" aria-hidden="true"><span></span></div>
+        <img src="assets/img/profile-img.jpg" alt="Portrait of Shaban G. Satti" width="1080" height="1080">
       </div>
     </div>
-  </section><!-- End Hero -->
 
+    <!-- ================= MARQUEE ================= -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Python</span><span>PyTorch Geometric</span><span>Julia</span><span>AMPL</span><span>Gurobi</span><span>DIgSILENT PowerFactory</span><span>OpenDSS</span><span>ETAP</span><span>TensorFlow</span><span>Spark MLlib</span><span>MATLAB</span><span>C++</span><span>Reinforcement Learning</span>
+        <span>Python</span><span>PyTorch Geometric</span><span>Julia</span><span>AMPL</span><span>Gurobi</span><span>DIgSILENT PowerFactory</span><span>OpenDSS</span><span>ETAP</span><span>TensorFlow</span><span>Spark MLlib</span><span>MATLAB</span><span>C++</span><span>Reinforcement Learning</span>
+      </div>
+    </div>
 
+    <!-- ================= STATS ================= -->
+    <div class="stats" id="stats">
+      <div class="stat reveal"><b data-count="10" data-suffix="+">0</b><span>years engineering real power systems</span></div>
+      <div class="stat reveal"><b data-count="3">0</b><span>degrees: EE, systems engineering, data science</span></div>
+      <div class="stat reveal"><b data-count="4">0</b><span>papers, plus a US patent filing</span></div>
+      <div class="stat reveal"><b data-count="2">0</b><span>live products: Coursewise &amp; MyCapstone</span></div>
+    </div>
+    </section>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- ================= PRODUCTS ================= -->
+    <section class="section view" id="products">
+      <header class="section-head">
+        <p class="kicker reveal">Products</p>
+        <h2 class="reveal">Things I've shipped</h2>
+      </header>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+      <div class="products">
+        <!-- Coursewise -->
+        <article class="product reveal" data-tilt style="--hue: 190">
+          <div class="product-glow" aria-hidden="true"></div>
+          <div class="browser" aria-hidden="true">
+            <div class="browser-bar"><i></i><i></i><i></i><span>coursewise.uk</span></div>
+            <div class="browser-body cw">
+              <div class="cw-side"><b></b><b></b><b></b><b></b></div>
+              <div class="cw-main">
+                <div class="cw-title"></div>
+                <div class="cw-cards">
+                  <div class="cw-card"><em style="--w:72%"></em></div>
+                  <div class="cw-card"><em style="--w:45%"></em></div>
+                  <div class="cw-card"><em style="--w:90%"></em></div>
+                </div>
+                <div class="cw-chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+              </div>
+            </div>
+          </div>
+          <div class="product-body">
+            <ul class="chips tags"><li>Education</li><li>Web app</li></ul>
+            <h3>Coursewise</h3>
+            <!-- TODO(Shaban): replace with your own one-line pitch for Coursewise -->
+            <p>A platform for running university courses: one place for course material, assessments and student progress, so the course runs itself and the teaching gets the attention.</p>
+            <a class="link-arrow" href="https://coursewise.uk" target="_blank" rel="noopener noreferrer">Visit coursewise.uk <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
 
+        <!-- MyCapstone -->
+        <article class="product reveal" data-tilt style="--hue: 280">
+          <div class="product-glow" aria-hidden="true"></div>
+          <div class="browser" aria-hidden="true">
+            <div class="browser-bar"><i></i><i></i><i></i><span>mycapstone.uk</span></div>
+            <div class="browser-body mc">
+              <div class="mc-col"><h6></h6><div class="mc-task"></div><div class="mc-task"></div><div class="mc-task mc-move"></div></div>
+              <div class="mc-col"><h6></h6><div class="mc-task"></div><div class="mc-task"></div></div>
+              <div class="mc-col"><h6></h6><div class="mc-task done"></div><div class="mc-ring"><svg viewBox="0 0 36 36"><circle cx="18" cy="18" r="15"/><circle class="mc-ring-fill" cx="18" cy="18" r="15"/></svg></div></div>
+            </div>
+          </div>
+          <div class="product-body">
+            <ul class="chips tags"><li>Education</li><li>Web app</li></ul>
+            <h3>MyCapstone</h3>
+            <!-- TODO(Shaban): replace with your own one-line pitch for MyCapstone -->
+            <p>A home for final-year capstone projects: students, teams and supervisors track milestones, submissions and feedback from proposal to final demo.</p>
+            <a class="link-arrow" href="https://mycapstone.uk" target="_blank" rel="noopener noreferrer">Visit mycapstone.uk <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= RESEARCH ================= -->
+    <section class="section view" id="research">
+      <header class="section-head">
+        <h2 class="reveal">Research projects</h2>
+      </header>
+
+      <div class="cards">
+        <article class="card reveal" data-tilt>
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path class="draw" d="M26 4 10 28h12l-2 16 18-26H26z"/></svg>
+          </div>
+          <h3>HyPowerFlow</h3>
+          <p>A GPU-parallel power flow solver for many grid scenarios at once. It uses data compression, structured hyper-sparsity and better initial voltage-angle estimates, so it needs less memory and fewer iterations to converge.</p>
+          <ul class="chips"><li>Python</li><li>PyTorch Geometric</li><li>Patent pending</li></ul>
+          <a class="link-arrow" href="https://github.com/amar-asu/HyPowerFlow" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="card reveal" data-tilt>
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path class="draw" d="M2 24c4-14 8-14 11 0s7 14 11 0 7-14 11 0 7 14 11 0"/></svg>
+          </div>
+          <h3>Identifying IBR control modes</h3>
+          <p>A real-time, three-pronged supervised learning approach that uses micro-PMU data to identify inverter control modes and estimate IBR and load parameters, with adaptive window selection. Tested on the IEEE 13-node feeder.</p>
+          <ul class="chips"><li>Python</li><li>Random forest</li><li>IEEE TIA 2024</li></ul>
+          <a class="link-arrow" href="https://ieeexplore.ieee.org/abstract/document/10720454" target="_blank" rel="noopener noreferrer">Read the paper <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="card reveal" data-tilt>
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path class="draw" d="M6 40V8m0 32h36M12 32l8-10 7 6 13-16"/></svg>
+          </div>
+          <h3>Security-constrained dispatch</h3>
+          <p>Security-constrained unit commitment for the IEEE 73-bus system with Benders decomposition, covering transmission and generator contingencies and renewable variability.</p>
+          <ul class="chips"><li>AMPL</li><li>Gurobi</li></ul>
+          <a class="link-arrow" href="https://github.com/shabansatti/Security-Constrained-Economic-Dispatch" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="card reveal" data-tilt>
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path class="draw" d="M10 14h28M10 24h28M10 34h28M16 8v32M32 8v32"/></svg>
+          </div>
+          <h3>Julia EMT simulation library</h3>
+          <p>A Julia library for electromagnetic transient simulation of power systems, tested on the WECC 240-bus system.</p>
+          <ul class="chips"><li>Julia</li><li>EMT</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section class="section view" id="experience">
+      <header class="section-head">
+        <p class="kicker reveal">Experience</p>
+        <h2 class="reveal">Where I've worked</h2>
+      </header>
+
+      <ol class="timeline">
+        <span class="timeline-line" aria-hidden="true"><span></span></span>
+        <li class="tl reveal">
+          <time>Nov 2025 – now</time>
+          <h3>Lecturer</h3>
+          <ul class="chips org"><li>UET Lahore, Pakistan</li></ul>
+          <p>Teaching Object Oriented Programming in C++ and Python to undergraduates, and Reinforcement Learning to graduate students.</p>
+        </li>
+        <li class="tl reveal">
+          <time>Aug 2023 – Dec 2024</time>
+          <h3>Research Assistant</h3>
+          <ul class="chips org"><li>Arizona State University, USA</li></ul>
+          <p>Data-driven stability analysis of IBR-rich grids with hybrid EMT and phasor models, Benders-based security-constrained economic dispatch, contingency analysis, exciter and PSS tuning, DCOPF on the GO dataset, and black-box-optimised transient controllers.</p>
+          <ul class="chips"><li>PowerFactory</li><li>AMPL</li><li>Gurobi</li><li>DSATools</li><li>Julia</li><li>Python</li></ul>
+          <span class="badge">Fulbright Scholar</span>
+        </li>
+        <li class="tl reveal">
+          <time>Nov 2013 – Jul 2023</time>
+          <h3>Senior Electrical Engineer</h3>
+          <ul class="chips org"><li>Pakistan Atomic Energy Commission, Pakistan</li></ul>
+          <p>Power flow for distribution grids, electrification of industrial buildings and HVAC systems, control systems for diesel generator sets, and low-voltage switchgear design.</p>
+          <ul class="chips"><li>OpenDSS</li><li>ETAP</li><li>AutoCAD Electrical</li></ul>
+        </li>
+        <li class="tl reveal">
+          <time>Jan 2013 – Nov 2013</time>
+          <h3>Graduate Student Assistant</h3>
+          <ul class="chips org"><li>PIEAS, Pakistan</li></ul>
+          <p>Linear Control Systems lab for undergraduate students.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+    <section class="section view" id="education">
+      <header class="section-head">
+        <h2 class="reveal">Education</h2>
+      </header>
+
+      <ol class="timeline">
+        <span class="timeline-line" aria-hidden="true"><span></span></span>
+        <li class="tl reveal">
+          <time>Feb 2020 – Aug 2022</time>
+          <h3>MS Data Science</h3>
+          <ul class="chips org"><li>Bahria University, Islamabad</li></ul>
+          <div class="chip-group"><span class="chip-label">Subjects</span><ul class="chips"><li>Machine Learning</li><li>Deep Learning</li><li>Cloud Computing</li><li>Big Data Analytics</li></ul></div>
+          <div class="chip-group"><span class="chip-label">Projects</span><ul class="chips projects"><li>Sentiment analysis of Amazon product reviews</li><li>CNN digit recognition on the CVL single-digit database</li><li>Arrhythmia classification with machine learning</li></ul></div>
+        </li>
+        <li class="tl reveal">
+          <time>2011 – 2013</time>
+          <h3>MS Systems Engineering</h3>
+          <ul class="chips org"><li>PIEAS, Islamabad</li></ul>
+          <div class="chip-group"><span class="chip-label">Subjects</span><ul class="chips"><li>Power Converter Design</li><li>Nonlinear Control</li><li>Adaptive Control</li><li>Fault Diagnosis and Tolerance</li></ul></div>
+          <div class="chip-group"><span class="chip-label">Projects</span><ul class="chips projects"><li>Robust control of an 8-DOF active vehicle suspension</li><li>Observer for active suspension state estimation</li></ul></div>
+          <span class="badge">PIEAS Fellow</span>
+        </li>
+        <li class="tl reveal">
+          <time>Sep 2007 – Jul 2011</time>
+          <h3>B.Sc Electrical Engineering</h3>
+          <ul class="chips org"><li>UET Taxila, Taxila</li></ul>
+          <div class="chip-group"><span class="chip-label">Subjects</span><ul class="chips"><li>Power System Analysis</li><li>Power Generation</li><li>Power Transmission</li><li>Power Distribution and Utilization</li></ul></div>
+          <div class="chip-group"><span class="chip-label">Projects</span><ul class="chips projects"><li>Model predictive control variable frequency drive for a 3-phase induction motor</li></ul></div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ================= AWARDS ================= -->
+    <section class="section view" id="awards">
+      <header class="section-head">
+        <p class="kicker reveal">Recognition</p>
+        <h2 class="reveal">Awards</h2>
+      </header>
+      <div class="awards">
+        <figure class="award reveal" data-tilt>
+          <img src="assets/img/ml4grid.jpg" alt="ML for Physical Simulation Challenge, power grid use case" loading="lazy" width="903" height="868">
+          <figcaption><b>2024</b>Winner, ML for Power Grid challenge</figcaption>
+        </figure>
+        <figure class="award reveal" data-tilt>
+          <img class="photo" src="assets/img/fulbright.jpg" alt="Shaban Satti at a Fulbright event" loading="lazy" width="2048" height="2048">
+          <figcaption><b>2023</b>Fulbright Scholar</figcaption>
+        </figure>
+        <figure class="award reveal" data-tilt>
+          <img src="assets/img/pieas.jpeg" alt="PIEAS logo" loading="lazy" width="224" height="224">
+          <figcaption><b>2011</b>PIEAS Fellow</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ================= PUBLICATIONS ================= -->
+    <section class="section view" id="publications">
+      <header class="section-head">
+        <p class="kicker reveal">Publications</p>
+        <h2 class="reveal">Papers &amp; patent</h2>
+      </header>
+      <ul class="pubs">
+        <li class="pub reveal">
+          <div class="pub-meta"><span class="pub-type">Patent</span><span class="pub-year">2024</span></div>
+          <div>
+            <h3>Parallel Power Flow Analysis for Electrical Power Grids using AI</h3>
+            <p>US Provisional Patent Application No. 63/721,340, filed 15 November 2024. A GPU-accelerated, physics-informed power flow solver using message passing in PyTorch Geometric and hyper-sparse matrix techniques.</p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-meta"><span class="pub-type">Journal</span><span class="pub-year">2024</span></div>
+          <div>
+            <h3><a href="https://ieeexplore.ieee.org/abstract/document/10720454" target="_blank" rel="noopener noreferrer">Supervised Learning Framework for Identification of Inverter Control Mode and Estimation of Inverter-based-Resource &amp; Load Parameters</a></h3>
+            <p>IEEE Transactions on Industry Applications, Special Issue, 2024</p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-meta"><span class="pub-type">Journal</span><span class="pub-year">In review</span></div>
+          <div>
+            <h3>Machine Learning for Physical Simulation Challenge Results and Retrospective Analysis: Power Grid Use Case</h3>
+            <p>Submitted to IEEE Transactions on Power Systems</p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-meta"><span class="pub-type">Journal</span><span class="pub-year">2018</span></div>
+          <div>
+            <h3>H∞ control of 8 degrees of freedom vehicle active suspension system</h3>
+            <p>Journal of King Saud University – Engineering Sciences, 30(2), 161–169, 2018</p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-meta"><span class="pub-type">Conference</span><span class="pub-year">2017</span></div>
+          <div>
+            <h3>Robust control of hybrid distributed generation for frequency regulation</h3>
+            <p>14th International Bhurban Conference on Applied Sciences and Technology (IBCAST), IEEE, 2017</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ================= TEACHING ================= -->
+    <section class="section view" id="teaching">
+      <header class="section-head">
+        <h2 class="reveal">Teaching</h2>
+      </header>
+      <div class="courses">
+        <div class="course reveal">
+          <span class="course-term">Fall 2026</span>
+          <h3>Programming for AI</h3>
+          <ul class="chips"><li class="uni">UET Lahore</li><li>Undergraduate</li></ul>
+        </div>
+        <div class="course reveal">
+          <span class="course-term">Fall 2026</span>
+          <h3>Agentic AI</h3>
+          <ul class="chips"><li class="uni">UET Lahore</li><li>Graduate</li></ul>
+        </div>
+        <a class="course reveal" href="OOP-S26.html" data-tilt>
+          <span class="course-term">Spring 2026</span>
+          <h3>Object Oriented Programming</h3>
+          <ul class="chips"><li class="uni">UET Lahore</li><li>C++</li><li>Undergraduate</li></ul>
+        </a>
+        <a class="course reveal" href="RL-S26.html" data-tilt>
+          <span class="course-term">Spring 2026</span>
+          <h3>Reinforcement Learning</h3>
+          <ul class="chips"><li class="uni">UET Lahore</li><li>Python</li><li>Graduate</li></ul>
+        </a>
+        <div class="course reveal">
+          <span class="course-term">Fall 2025</span>
+          <h3>Object Oriented Programming</h3>
+          <ul class="chips"><li class="uni">UET Lahore</li><li>Python</li><li>Undergraduate</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="contact view" id="contact">
+      <div class="contact-orb" aria-hidden="true"></div>
+      <p class="kicker reveal">Contact</p>
+      <h2 class="contact-title"><span class="split" data-split>Let's build something.</span></h2>
+      <p class="lead reveal">Research collaborations, Coursewise or MyCapstone for your department, or a question about a course: my inbox is open.</p>
+      <div class="contact-cards">
+        <a class="contact-card reveal" href="https://wa.me/923325275028" target="_blank" rel="noopener noreferrer" data-tilt>
+          <span class="contact-icon"><svg viewBox="0 0 24 24"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35ZM12.05 21.5h-.01a9.4 9.4 0 0 1-4.79-1.31l-.34-.2-3.56.93.95-3.47-.22-.36a9.4 9.4 0 0 1-1.44-5.01c0-5.2 4.23-9.42 9.43-9.42 2.52 0 4.88.98 6.66 2.76a9.36 9.36 0 0 1 2.76 6.67c0 5.2-4.23 9.42-9.43 9.42Zm8.02-17.44A11.27 11.27 0 0 0 12.05.75C5.8.75.72 5.83.72 12.08c0 2 .52 3.95 1.52 5.67L.62 23.25l5.63-1.48a11.3 11.3 0 0 0 5.8 1.48h.01c6.24 0 11.33-5.08 11.33-11.33 0-3.03-1.18-5.87-3.32-8Z"/></svg></span>
+          <span class="contact-label">WhatsApp</span>
+          <span class="contact-value">+92 332 5275028</span>
+        </a>
+        <a class="contact-card reveal" href="mailto:ishabansatti@gmail.com" data-tilt>
+          <span class="contact-icon"><svg viewBox="0 0 24 24"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm1 2.4V17h16V7.4l-8 5.6-8-5.6ZM5.6 7 12 11.5 18.4 7H5.6Z"/></svg></span>
+          <span class="contact-label">Email</span>
+          <span class="contact-value">ishabansatti@gmail.com</span>
+        </a>
+      </div>
+      <div class="hero-cta reveal">
+        <a class="btn btn-primary magnetic" href="https://www.linkedin.com/in/ishabansatti/" target="_blank" rel="noopener noreferrer"><span>Message me on LinkedIn</span></a>
+        <a class="btn btn-ghost magnetic" href="https://github.com/shabansatti" target="_blank" rel="noopener noreferrer"><span>GitHub</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span data-year>2026</span> Shaban G. Satti</p>
+    <a href="#home" data-view-link="home">Back to home ↑</a>
+  </footer>
+
+  <script src="assets/site/site.js" defer></script>
 </body>
-
 </html>
