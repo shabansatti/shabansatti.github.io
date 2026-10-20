@@ -254,9 +254,8 @@ body.has-pointer .cursor-glow { opacity: 1; }
 
 @media (max-width: 860px) {
   .hero { grid-template-columns: 1fr; padding-top: 110px; text-align: left; }
-  .hero-side { order: -1; max-width: none; justify-self: start; align-items: flex-start; }
+  .hero-side { order: -1; max-width: none; justify-self: center; align-items: center; }
   .hero-portrait { max-width: 240px; }
-  .hero-side .socials-under { justify-content: flex-start; }
   .scroll-hint { display: none; }
 }
 
